@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "currai": {
+      "source": "curraiapp/skills",
+      "sourceType": "github",
+      "skillPath": "skills/currai/SKILL.md",
+      "computedHash": "112ec54ae804a5eb43ab719d2930754f77b4a648be8890f5ce3ac59d7ad12649"
+    }
+  }
+}

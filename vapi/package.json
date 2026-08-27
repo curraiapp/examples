@@ -1,0 +1,31 @@
+{
+  "name": "vapi-assistant-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --test app/vapi-helpers.test.ts app/assistant-config.test.ts app/api/assistants/route.test.ts app/api/currai/voice/route.test.ts",
+    "pretypecheck": "next typegen",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vapi-ai/web": "^2.6.1",
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

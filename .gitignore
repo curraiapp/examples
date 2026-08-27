@@ -1,0 +1,25 @@
+# Environment and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+
+# Dependencies and package-manager state
+**/node_modules/
+**/.pnpm-store/
+**/.pnp
+**/.pnp.*
+
+# Framework output
+**/.next/
+**/out/
+**/build/
+**/coverage/
+**/.vercel/
+
+# Local files
+**/.DS_Store
+**/*.tsbuildinfo
+**/next-env.d.ts
+**/*.log

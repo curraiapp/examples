@@ -1,0 +1,4 @@
+interface:
+  display_name: "Currai"
+  short_description: "Connect AI apps to Currai intelligence"
+  default_prompt: "Use $currai to connect this AI application to Currai's user intelligence and agent quality platform without installing a Currai SDK."
